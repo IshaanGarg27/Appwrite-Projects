@@ -23,6 +23,7 @@ function Todoform() {
       }
     );
     e.target.reset();
+    // window.location.reload()
   };
 
   return (

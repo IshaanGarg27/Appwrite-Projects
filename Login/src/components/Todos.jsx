@@ -5,7 +5,7 @@ function Todos() {
   const [todoList, setTodoList] = useState([]);
   const [loader, setLoader] = useState(false);
 
-  //Getting Todo List
+  // //Getting Todo List
   useEffect(() => {
     setLoader(true);
 
